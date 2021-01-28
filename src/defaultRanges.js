@@ -43,7 +43,7 @@ export function createStaticRanges(ranges) {
 
 export const defaultStaticRanges = createStaticRanges([
   {
-    label: 'Today',
+    label: 'Today/test',
     range: () => ({
       startDate: defineds.startOfToday,
       endDate: defineds.endOfToday,
